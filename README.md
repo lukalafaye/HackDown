@@ -1,22 +1,22 @@
 <h1 align="center">Jekyll-Markdown</h1>
 
-**Jekyll-Markdow** is a fancy **markdown blog** generator that uses jekyll. All your posts use pure **MarkDown** and the blog is responsive on any device.
+**Jekyll-Markdown** is a fancy **markdown blog** generator using jekyll. All your blog posts are edited in pure **MarkDown** and the blog is responsive on any device.
 
-## Getting Started
+# Getting Started
 
 You can view the template website at: [https://lukalafaye.github.io/Jekyll-MarkDown/](https://lukalafaye.github.io/Jekyll-MarkDown/)
 
-## Prerequisites
+# Prerequisites
 
-### Installing git
+## Installing git
 
 Depending on your OS, follow the steps at: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-### Installing Jekyll
+## Installing Jekyll
 
 Depending on your OS, follow the steps at: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
 
-## Installing
+# Installing
 
 1. Clone the whole repository from github
 
@@ -27,6 +27,12 @@ git clone https://github.com/lukalafaye/Jekyll-MarkDown/
 ```
 
 2. Running jekyll to make a static web server
+
+
+
+# Deployment
+
+## Running jekyll to make a static web server
 
 To build and make a static server, type this command inside Jekyll-Markdown folder:
 
@@ -40,35 +46,10 @@ jekyll s
 localhost:4000
 ```
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Jekyll](https://jekyllrb.com/) - Static Site Generator
+* [MarkDown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Lightweight Markup Language
 
 ## Contributing
 
