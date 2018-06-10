@@ -10,15 +10,15 @@ You can view the template website at: [https://lukalafaye.github.io/Jekyll-MarkD
 
 ## Installing git
 
-Depending on your OS, follow the steps at: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+Depending on your OS, follow the steps at: **[https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)**
 
 ## Installing Jekyll
 
-Depending on your OS, follow the steps at: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
+Depending on your OS, follow the steps at: **[https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)**
 
 # Installing
 
-1. Clone the whole repository from github
+1. **Clone the whole repository from github**
 
 This can be done by typing this in a **Terminal** / GIT **CMD**
 
@@ -26,21 +26,17 @@ This can be done by typing this in a **Terminal** / GIT **CMD**
 git clone https://github.com/lukalafaye/Jekyll-MarkDown/
 ```
 
-2. Running jekyll to make a static web server
-
-
-
 # Deployment
 
 ## Running jekyll to make a static web server
 
-To build and make a static server, type this command inside Jekyll-Markdown folder:
+**To build and make a static server, type this command inside Jekyll-Markdown folder:**
 
 ```
 jekyll s
 ```
 
-3. Finally, check that the web server is running by typing this address in your web browser:
+**Finally, check that the web server is running by typing this address in your web browser:**
 
 ```
 localhost:4000
@@ -48,8 +44,8 @@ localhost:4000
 
 ## Built With
 
-* [Jekyll](https://jekyllrb.com/) - Static Site Generator
-* [MarkDown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Lightweight Markup Language
+* **[Jekyll](https://jekyllrb.com/) - Static Site Generator**
+* **[MarkDown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Lightweight Markup Language**
 
 ## Contributing
 
