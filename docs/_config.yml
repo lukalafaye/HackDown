@@ -4,6 +4,7 @@
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+url: https://lukalafaye.github.io/Jekyll-MarkDown
 encoding: UTF-8
 sass:
     sass_dir: _sass
