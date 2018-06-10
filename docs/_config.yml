@@ -1,4 +1,5 @@
 # Site configuration
+# Add social networks
 
 markdown: kramdown
 highlighter: rouge
@@ -9,3 +10,5 @@ sass:
 
 title: Title
 description: Description of this blog
+
+github: lukalafaye
