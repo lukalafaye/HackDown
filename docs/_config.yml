@@ -1,0 +1,11 @@
+# Site configuration
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+encoding: UTF-8
+sass:
+    sass_dir: _sass
+
+title: Title
+description: Description of this blog

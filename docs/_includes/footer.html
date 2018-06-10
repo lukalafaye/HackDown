@@ -1,0 +1,18 @@
+<footer>
+
+	<div class="container">
+
+		<a href="{{ site.baseurl }}""><h2>{{site.title}}</h2></a>
+		© 2018 Hackdown - All rights reserved
+
+		<div class="links">
+			{% for page in site.pages %}
+			{% if page.title %}
+			<a href="{{page.url | relative_url}}">{{page.title}}</a>
+			{% endif %}
+			{% endfor %}
+		</div>
+
+	</div>
+</footer>
+
