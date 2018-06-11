@@ -42,6 +42,16 @@ jekyll s
 localhost:4000
 ```
 
+**Configure the website in _config.yml**
+
+```
+nano _config.yml
+```
+
+<p align="center">
+  <img src="https://github.com/lukalafaye/Jekyll-MarkDown/img/config.png" width="350"/>
+</p>
+
 ## Built With
 
 * **[Jekyll](https://jekyllrb.com/) - Static Site Generator**
