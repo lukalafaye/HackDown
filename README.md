@@ -4,7 +4,7 @@
 
 # Getting Started
 
-You can view the template website at: [https://lukalafaye.github.io/Jekyll-MarkDown/](https://lukalafaye.github.io/Jekyll-MarkDown/)
+You can view the template website at: **[https://lukalafaye.github.io/Jekyll-MarkDown/](https://lukalafaye.github.io/Jekyll-MarkDown/)**
 
 # Prerequisites
 
@@ -47,20 +47,15 @@ localhost:4000
 * **[Jekyll](https://jekyllrb.com/) - Static Site Generator**
 * **[MarkDown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Lightweight Markup Language**
 
-## Contributing
+# Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-Lucas Gruwez
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Luka Lafaye de Micheaux** - *Initial work* - **[lukalafaye](https://github.com/lukalafaye)**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of **[contributors](https://github.com/lukalafaye/Jekyll-MarkDown/contributors)** who participated in this project.
 
 ## License
 
@@ -68,6 +63,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* **Inspiration** - **Lucas Gruwez** - **[lucasgruwez](https://github.com/lucasgruwez)**
+* **Helping**     - **Arthur Guiot** - **[arguiot](https://github.com/arguiot)**
