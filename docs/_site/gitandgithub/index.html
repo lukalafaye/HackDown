@@ -1,0 +1,236 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		
+			<title>Git and GitHub | Title</title>
+		
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" href="icon.png">
+
+		<link rel="stylesheet" href="https://unpkg.com/waffle-grid@1.3.5/dist/waffle-grid.min.css">
+		<link rel="stylesheet" href="/css/normalize.css">
+		<link rel="stylesheet" href="/css/main.css">
+	</head>
+
+	<body>
+		<!--[if lte IE 9]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+		<nav>
+	<div class="container">
+
+		<a href="/">
+			<h1>Title</h1>
+		</a>
+	</div>
+</nav>
+
+
+<main class="container">
+
+	<p class="date">2018-05-20 00:00:00</p>
+
+<h1 id="git-and-github">Git and GitHub</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><strong>Git</strong> is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.</p>
+
+<p><strong>GitHub</strong> is a web-based hosting service for version control using git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.</p>
+
+<p>This blog post describes how to use <strong>git</strong> to work on <strong>github</strong> projects.</p>
+
+<h2 id="git-commands">Git Commands</h2>
+
+<h2 id="1-open-terminal-ctrl--alt--t">1. Open <strong>Terminal</strong> (CTRL + ALT + T)</h2>
+
+<h2 id="2-change-directory-to-your-github-project-on-local">2. Change directory to your github project (on local)</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /home/lukalafaye/Documents/GitHub/NewProject
+</code></pre></div></div>
+
+<h2 id="3-type-git-init-to-initialize-git-in-the-folder">3. Type: <code class="highlighter-rouge">git init</code> to initialize git in the folder</h2>
+
+<h2 id="4-add-the-files-you-want-to-upload-on-github">4. Add the files you want to upload on GitHub</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Type: <span class="sb">`</span>git add file.md<span class="sb">`</span>
+Type: <span class="sb">`</span>git add <span class="s1">'*.txt'</span><span class="sb">`</span> <span class="o">(</span>to add all txt files<span class="o">)</span>
+Type: <span class="sb">`</span>git add <span class="nt">--all</span><span class="sb">`</span> <span class="o">(</span>to add all files <span class="k">in </span>folder<span class="o">)</span>
+</code></pre></div></div>
+
+<h2 id="5-type-git-status-to-verify-what-you-added">5. Type: <code class="highlighter-rouge">git status</code> to verify what you added</h2>
+
+<h2 id="6-type-git-commit--m-description-of-commit-to-commit-the-changes">6. Type: <code class="highlighter-rouge">git commit -m "Description of commit"</code> to commit the changes</h2>
+
+<h2 id="7-type-git-log-to-display-all-the-changes-you-committed-in-order">7. Type: <code class="highlighter-rouge">git log</code> to display all the changes you committed in order</h2>
+
+<h2 id="8-remote-the-repository-by-typing-git-remote-add-origin-urlofgithubrepository">8. Remote the repository by typing <code class="highlighter-rouge">git remote add origin (URLofGitHubRepository)</code></h2>
+
+<p><strong>Here, the remote name is origin. When you create a remote, you establish a link between the GitHub repository and origin</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/reponame/reponame.git
+</code></pre></div></div>
+
+<h2 id="9-push-master-to-origin-by-typing-git-push--u-origin-master">9. Push master to origin by typing <code class="highlighter-rouge">git push -u origin master</code></h2>
+
+<p><strong>The push command tells Git where to put our commits. <code class="highlighter-rouge">git push -u origin master</code> pushes your local changes to origin repository on GitHub. The remote name is origin and the local branch name is master (by default). The <code class="highlighter-rouge">-u</code> option tells Git to remember the parameters so that the next push, you only need git push origin master.</strong></p>
+
+<p><em>Other people are working on the “reponame” on GitHub. They have pulled your changes, created new commits and pushed them.</em></p>
+
+<h2 id="10-type-git-pull-origin-master-to-pull--check-all-changes-made-on-the-github-repository">10. Type: <code class="highlighter-rouge">git pull origin master</code> to pull (= check) all changes made on the GitHub repository</h2>
+
+<h2 id="11-type-git-stash">11. Type: <code class="highlighter-rouge">Git stash</code></h2>
+
+<p>Sometimes when you go to pull you may have changes you don’t want to commit just yet. One option you have, other than commiting, is to stash the changes.
+Use the command ‘git stash’ to stash your changes, and <code class="highlighter-rouge">git stash apply</code> to re-apply your changes after your pull.</p>
+
+<h2 id="12-type-git-diff-head-to-list-all-differences-from-last-commits">12. Type: <code class="highlighter-rouge">git diff HEAD</code> to list all differences from last commits</h2>
+
+<p><strong><code class="highlighter-rouge">git diff</code> is used to display all differences with previous commits. HEAD is a pointer that holds your position within all your different commits. By default HEAD points to your most recent commit, so it can be used as a quick way to reference that commit.</strong></p>
+
+<p>You want to try to keep related changes together in separate commits. Using ‘git diff’ gives you a good overview of changes you have made and lets you add files or directories one at a time and commit them separately.</p>
+
+<h2 id="13-another-great-use-for-diff-is-looking-at-changes-within-files-that-have-already-been-staged-remember-staged-files-are-files-we-have-told-git-that-are-ready-to-be-committed">13. Another great use for diff is looking at changes within files that have already been staged. Remember, staged files are files we have told git that are ready to be committed.</h2>
+
+<p>Type: <code class="highlighter-rouge">git diff --staged</code> to list all changes you staged</p>
+
+<h2 id="14-you-can-unstage-files-by-using-typing-git-reset">14. You can unstage files by using typing <code class="highlighter-rouge">git reset</code></h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset remove.txt
+</code></pre></div></div>
+
+<h2 id="15-files-can-be-changed-back-to-how-they-were-at-the-last-commit-by-using-the-command-git-checkout----target">15. Files can be changed back to how they were at the last commit by using the command: <code class="highlighter-rouge">git checkout -- &lt;target&gt;</code></h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">--</span> reverse.txt
+</code></pre></div></div>
+
+<p><strong>So you may be wondering, why do I have to use this ‘–’ thing? git checkout seems to work fine without it. It’s simply promising the command line
+that there are no more options after the ‘–’. This way if you happen to have a branch named octocat.txt, it will still revert the file, instead
+of switching to the branch of the same name.</strong></p>
+
+<h2 id="16-branching-out-git-branch-temp">16. Branching out: <code class="highlighter-rouge">git branch temp</code></h2>
+
+<p>When developers are working on a feature or bug they’ll often create a copy (aka. branch) of their code they can make separate commits to for testing.
+Then when they’re done they can merge this branch back into their main master branch.</p>
+
+<p><strong>Branches are what naturally happens when you want to work on multiple features at the same time. You wouldn’t want to end up with a master branch which has Feature A half done and Feature B half done.
+Rather you’d separate the code base into two “snapshots” (branches) and work on and commit to them separately. As soon as one was ready, you might merge this branch back into the master branch and push it to the remote server.</strong></p>
+
+<h2 id="17-type-git-branch-to-list-local-branches">17. Type <code class="highlighter-rouge">git branch</code> to list local branches</h2>
+
+<p><strong>Master is the main branch</strong></p>
+
+<h2 id="18-switch-branches-with-git-checkout-branch">18. Switch branches with <code class="highlighter-rouge">git checkout &lt;branch&gt;</code></h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout temp
+</code></pre></div></div>
+
+<p><strong>You can use: <code class="highlighter-rouge">git checkout -b new_branch</code> to checkout and create a branch at the same time.
+This is the same thing as doing: <code class="highlighter-rouge">git branch new_branch</code></strong></p>
+
+<h2 id="19-removing-files-inside-a-branch-git-rm-file">19. Removing files inside a branch: <code class="highlighter-rouge">git rm file</code></h2>
+
+<p><strong>Git rm command which will not only remove the actual files from disk, but will also stage the removal of the files</strong></p>
+
+<p>To remove all txt files:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nb">rm</span> <span class="s1">'*.txt'</span>
+</code></pre></div></div>
+
+<p><strong>You can use the recursive option on <code class="highlighter-rouge">git rm</code>: <code class="highlighter-rouge">git rm -r folder</code>
+This will recursively remove all folders and files from the given directory.</strong></p>
+
+<h2 id="20-type-git-commit--am-to-skip-git-rm-of-manually-deleted-files">20. Type: <code class="highlighter-rouge">git commit -am</code> to skip <code class="highlighter-rouge">git rm</code> of manually deleted files</h2>
+
+<p>If you happen to delete a file without using <code class="highlighter-rouge">git rm</code> you’ll find that you still have to <code class="highlighter-rouge">git rm</code>
+the deleted files from the working tree. You can save this step by using the <code class="highlighter-rouge">-a</code> option on <code class="highlighter-rouge">git commit</code>,
+which auto removes deleted files with the commit.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-am</span> <span class="s2">"Delete stuff"</span>
+</code></pre></div></div>
+
+<h2 id="21-pull-requests">21. Pull requests</h2>
+
+<p><strong>If you’re hosting your repo on GitHub, you can do something called a pull request.
+A pull request allows the boss of the project to look through your changes and make comments before deciding to merge in the change.
+It’s a really great feature that is used all the time for remote workers and open-source projects.</strong></p>
+
+<h2 id="22-type-git-merge-branch-to-merge-that-branch-into-the-master-branch">22. Type: <code class="highlighter-rouge">git merge branch</code> to merge that branch into the <code class="highlighter-rouge">master</code> branch</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git merge temp
+</code></pre></div></div>
+
+<p><strong>Merge Conflicts can occur when changes are made to a file at the same time.
+A lot of people get really scared when a conflict happens, but fear not!
+They aren’t that scary, you just need to decide which code to keep.</strong></p>
+
+<h2 id="23-delete-a-branch-with-git-branch--d-branch">23. Delete a branch with: <code class="highlighter-rouge">git branch -d &lt;branch&gt;</code></h2>
+
+<p>You should delete a brach after merging it or you’ll use all your work.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-d</span> temp
+</code></pre></div></div>
+
+<p>**If you have been working on a feature branch and you decide you don’t want this feature anymore,
+you might decide to delete the branch since you’re scrapping the idea.
+You’ll notice that <code class="highlighter-rouge">git branch -d bad_feature</code> doesn’t work. This is because <code class="highlighter-rouge">-d</code>
+won’t let you delete something that hasn’t been merged.</p>
+
+<p>You can either add the <code class="highlighter-rouge">--force</code> (<code class="highlighter-rouge">-f</code>) option or use <code class="highlighter-rouge">-D</code> which combines <code class="highlighter-rouge">-d</code> <code class="highlighter-rouge">-f</code> together into one command.**</p>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>All the content can be found and tested at:
+<a href="https://try.github.io/">https://try.github.io/</a></p>
+
+
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+</main>
+
+<footer>
+
+	<div class="container">
+
+		<a href="""><h2>Title</h2></a>
+		© 2018 Title - All rights reserved
+
+		<div class="links">
+			
+			
+			<a href="/about/">About</a>
+			
+			
+			
+			<a href="/">Home</a>
+			
+			
+			
+			
+		</div>
+
+	</div>
+</footer>
+
+
+
+
+		<br><br>
+		<script src="https://unpkg.com/moment@2.22.1/moment.js" charset="utf-8"></script>
+		<script src="js/main.js"></script>
+</body>
+
+</html>
+
