@@ -12,5 +12,13 @@ sass:
 title: Title
 description: Description of this blog
 
-github: lukalafaye
-facebook: lukalafaye
+#########################################
+#  Remove # sign to enable              #
+#########################################
+
+#codepen: User
+#facebook: User
+#github: User
+#instagram: User
+#twitter: User
+#youtube: User
