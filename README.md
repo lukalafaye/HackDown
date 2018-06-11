@@ -48,10 +48,6 @@ localhost:4000
 nano _config.yml
 ```
 
-<p align="center">
-  <img src="https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/img/config.png" width="350"/>
-</p>
-
 ## Built With
 
 * **[Jekyll](https://jekyllrb.com/) - Static Site Generator**
