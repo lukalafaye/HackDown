@@ -49,7 +49,7 @@ nano _config.yml
 ```
 
 <p align="center">
-  <img src="https://github.com/lukalafaye/Jekyll-MarkDown/img/config.png" width="350"/>
+  <img src="https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/img/config.png" width="350"/>
 </p>
 
 ## Built With
