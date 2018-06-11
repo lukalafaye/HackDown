@@ -76,6 +76,15 @@ textarea {
     resize: vertical;
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  padding: 0 8px;
+}
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
