@@ -55,4 +55,4 @@ in tollerem, pro verteramus convenerat, ciconia cingissent uindicasque de molieb
 imperaverant. Crepitanti effugerunt. Candentique 
 
 
-© 2018 title - All rights reserved
+© 2018 {{site.title}} - All rights reserved
