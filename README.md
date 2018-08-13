@@ -32,7 +32,7 @@ $ git clone https://github.com/lukalafaye/Jekyll-MarkDown/
 Move to `docs` directory and run the web server:
 
 ```
-$ cd docs
+$ cd docs/
 $ jekyll s
 ```
 
