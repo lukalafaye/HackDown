@@ -1,19 +1,24 @@
 # Site configuration
-# Add social networks
 
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+
+# Change this URL to your website's
 url: https://lukalafaye.github.io/Jekyll-MarkDown
+
 encoding: UTF-8
 sass:
     sass_dir: _sass
 
+# Change Title
 title: Title
+
+# Change description
 description: Description of this blog
 
 #########################################
-#  Add # sign to enable                 #
+#        Add # sign to disable          #
 #########################################
 
 codepen: User
