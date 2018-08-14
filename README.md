@@ -8,16 +8,11 @@ You can view the template website at: [https://lukalafaye.github.io/Jekyll-MarkD
 
 # Prerequisites
 
-## Installing git
-
-Depending on your OS, follow the steps at: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
 ## Installing Jekyll
 
 Depending on your OS, follow the steps at: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
 
 # Installing
-
 
 Clone the whole repo from GitHub by typing this in a **Terminal** / GIT **CMD**
 
@@ -56,7 +51,7 @@ $ nano _config.yml
 
 # Contributing
 
-Please leave a star 🌟 to help the project getting more popular!
+Please leave a star 🌟  to help the project getting more popular!
 
 ## Authors
 
