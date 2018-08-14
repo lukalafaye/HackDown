@@ -8,7 +8,7 @@ You can view the template website at: [https://lukalafaye.github.io/Jekyll-MarkD
 
 # Prerequisites
 
-## Installing Jekyll
+Installing Jekyll:
 
 Depending on your OS, follow the steps at: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
 
