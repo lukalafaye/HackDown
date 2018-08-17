@@ -1,20 +1,16 @@
 # Jekyll-Markdown
 
-**Jekyll-Markdown** is a fancy **markdown blog** generator using jekyll. All your blog posts are edited in pure **MarkDown** and the blog is responsive on any device.
+Jekyll-Markdown is a fancy markdown blog generator using jekyll. All your blog posts are edited in pure MarkDown and the blog is responsive on any device.
 
 # Getting Started
 
-You can view the template website at: [https://lukalafaye.github.io/Jekyll-MarkDown/](https://lukalafaye.github.io/Jekyll-MarkDown/)
+You can view the template website at: https://lukalafaye.github.io/Jekyll-MarkDown/
 
 # Prerequisites
 
-Installing Jekyll:
-
-Depending on your OS, follow the steps at: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
+https://jekyllrb.com/docs/installation/
 
 # Installing
-
-Clone the whole repo from GitHub by typing this in a **Terminal** / GIT **CMD**
 
 ```
 $ git clone https://github.com/lukalafaye/Jekyll-MarkDown/
@@ -56,12 +52,6 @@ Please leave a star 🌟  to help the project getting more popular!
 ## Authors
 
 * **Luka Lafaye de Micheaux** - *Initial work* - [**lukalafaye**](https://github.com/lukalafaye)
-
-See also the list of [**contributors**](https://github.com/lukalafaye/Jekyll-MarkDown/graphs/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [**LICENSE.md**](LICENSE.md) file for details
 
 ## Acknowledgments
 
