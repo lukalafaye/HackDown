@@ -1,6 +1,6 @@
 # Jekyll-Markdown
 
-Jekyll-Markdown is a fancy markdown blog generator using jekyll. All your blog posts are edited in pure MarkDown and the blog is responsive on any device.
+Jekyll-Markdown is a fancy markdown blog generator using Jekyll. All your blog posts are edited in pure MarkDown and the blog is responsive on any device.
 
 # Getting Started
 
@@ -13,17 +13,16 @@ https://jekyllrb.com/docs/installation/
 # Installing
 
 ```
-$ git clone https://github.com/lukalafaye/Jekyll-MarkDown/
+$ git clone https://github.com/remyskw/Jekyll-MarkDown
 ```
 
 # Deployment
 
 ## Running jekyll to make a static web server
 
-Move to `docs` directory and run the web server:
+Move to the current directory and run the web server:
 
 ```
-$ cd docs/
 $ jekyll s
 ```
 
@@ -36,7 +35,6 @@ Finally, check that the web server is running by typing this address in your web
 Configure the website in _config.yml
 
 ```
-$ cd docs/
 $ nano _config.yml
 ```
 
@@ -54,6 +52,7 @@ https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/CONTRIBUTING.md) for d
 ## Authors
 
 * **Luka Lafaye de Micheaux** - *Initial work* - [**lukalafaye**](https://github.com/lukalafaye)
+* **remyskw** - Readaptation of work
 
 ## Acknowledgments
 
