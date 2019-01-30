@@ -5,7 +5,7 @@ highlighter: rouge
 permalink: /:title/
 
 # Change this URL to your website's
-url: https://lukalafaye.github.io/Jekyll-MarkDown
+url: https://jekyll-markdown.netlify.com/
 
 encoding: UTF-8
 sass:
