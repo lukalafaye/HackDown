@@ -57,4 +57,4 @@ https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/CONTRIBUTING.md) for d
 
 * **Inspiration** - **Lucas Gruwez** - [**lucasgruwez**](https://github.com/lucasgruwez)
 * **Helping**     - **Arthur Guiot** - [**arguiot**](https://github.com/arguiot)
-* **PR README**   - **Rémy Samkocwa** - [**remyskw**](https://github.com/remyskw)
+* **Improve README.md**   - **Rémy Samkocwa** - [**remyskw**](https://github.com/remyskw)
