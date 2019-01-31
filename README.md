@@ -52,9 +52,9 @@ https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/CONTRIBUTING.md) for d
 ## Authors
 
 * **Luka Lafaye de Micheaux** - *Initial work* - [**lukalafaye**](https://github.com/lukalafaye)
-* **remyskw** - Readaptation of work
 
 ## Acknowledgments
 
 * **Inspiration** - **Lucas Gruwez** - [**lucasgruwez**](https://github.com/lucasgruwez)
 * **Helping**     - **Arthur Guiot** - [**arguiot**](https://github.com/arguiot)
+* **Helping**     - **Rémy Samkocwa** - [**remyskw**](https://github.com/remyskw)
