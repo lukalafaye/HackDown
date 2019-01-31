@@ -20,7 +20,7 @@ $ git clone https://github.com/remyskw/Jekyll-MarkDown
 
 ## Running jekyll to make a static web server
 
-Move to the current directory and run the web server:
+Move in the Jekyll Markdown directory and run the web server:
 
 ```
 $ jekyll s
@@ -57,4 +57,4 @@ https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/CONTRIBUTING.md) for d
 
 * **Inspiration** - **Lucas Gruwez** - [**lucasgruwez**](https://github.com/lucasgruwez)
 * **Helping**     - **Arthur Guiot** - [**arguiot**](https://github.com/arguiot)
-* **Helping**     - **Rémy Samkocwa** - [**remyskw**](https://github.com/remyskw)
+* **PR README**   - **Rémy Samkocwa** - [**remyskw**](https://github.com/remyskw)
