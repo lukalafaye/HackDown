@@ -1,6 +1,6 @@
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/2000px-Markdown-mark.svg.png" alt="Logo" height="200"><h1>Jekyll-Markdown</h1></div>
 
-Jekyll-Markdown is a fancy markdown blog generator using Jekyll. All your blog posts are edited in pure MarkDown and the blog is responsive on any device.
+Jekyll-Markdown is a pure markdown blog generator that uses Jekyll. You can use Jekyll-Markdown to build a simple black and white responsive blog that displays all your posts sorted in categories.
 
 # Getting Started
 
@@ -28,15 +28,11 @@ $ jekyll s
 
 Finally, check that the web server is running by typing this address in your web browser:
 
-[localhost:4000](localhost:4000)
+[localhost:4000](https://localhost:4000)
 
 # Configuring the website
 
-Configure the website in _config.yml
-
-```
-$ nano _config.yml
-```
+Configure the website in *_config.yml* and add your posts in the *_posts* folder based on the help post content. For more information about adding articles, see https://lukalafaye.github.io/Jekyll-MarkDown/help/
 
 ## Built With
 
@@ -46,8 +42,7 @@ $ nano _config.yml
 # Contributing
 
 Please leave a star 🌟  to help the project getting more popular!
-You can also read [CONTRIBUTING.md](
-https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/CONTRIBUTING.md) for details on submitting pull requests to this project.
+You can also read [CONTRIBUTING.md](https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/CONTRIBUTING.md) for details on submitting pull requests to this project.
 
 ## Authors
 
@@ -56,5 +51,5 @@ https://github.com/lukalafaye/Jekyll-MarkDown/blob/master/CONTRIBUTING.md) for d
 ## Acknowledgments
 
 * **Inspiration** - **Lucas Gruwez** - [**lucasgruwez**](https://github.com/lucasgruwez)
-* **Helping**     - **Arthur Guiot** - [**arguiot**](https://github.com/arguiot)
-* **Improve README.md**   - **Rémy Samkocwa** - [**remyskw**](https://github.com/remyskw)
+* **Advices**     - **Arthur Guiot** - [**arguiot**](https://github.com/arguiot)
+* **Correction**   - **Rémy Samkocwa** - [**remyskw**](https://github.com/remyskw)
