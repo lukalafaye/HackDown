@@ -1,4 +1,4 @@
-<div align="center"><img src="img/listener.jpg" alt="Logo" height="200"><h1>Jekyll-Markdown</h1></div>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/2000px-Markdown-mark.svg.png" alt="Logo" height="200"><h1>Jekyll-Markdown</h1></div>
 
 Jekyll-Markdown is a fancy markdown blog generator using Jekyll. All your blog posts are edited in pure MarkDown and the blog is responsive on any device.
 
