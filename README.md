@@ -8,7 +8,7 @@ Jekyll-Markdown is a pure markdown blog generator that uses Jekyll. You can use 
 
 - https://jekyllrb.com/docs/installation/
 
-# Deployment
+## Deployment
 
 Move in the Jekyll Markdown directory and run the web server:
 
@@ -22,32 +22,32 @@ Finally, check that the web server is running by typing this address in your web
 
 Configure the website in *_config.yml* and add your posts in the *_posts* folder based on the help post content. For more information about adding articles, see https://lukalafaye.github.io/Jekyll-MarkDown/help/
 
-## Built With
+# Built With
 
 * [**Jekyll**](https://jekyllrb.com/) - Static Site Generator
 * [**MarkDown**](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Lightweight Markup Language
 
-## Contributing
+# Contributing
 
 Please leave a star 🌟 and read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to improve the project.
 
-## Versioning
+# Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/lukalafaye/Jekyll-Markdown/tags). 
 
-## Authors
+# Authors
 
 * **Luka Lafaye de Micheaux** - *Initial work* - [lukalafaye](https://github.com/lukalafaye)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## Acknowledgments
+# Acknowledgments
 
 * **Lucas Gruwez** - *Inspiration* - [**@lucasgruwez**](https://github.com/lucasgruwez)   
 * **Arthur Guiot** - *Advices* - [**@arguiot**](https://github.com/arguiot)
 * **Rémy Samkocwa** - *Improved README.md* - [**@remyskw**](https://github.com/remyskw)
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
