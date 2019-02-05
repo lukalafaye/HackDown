@@ -2,44 +2,29 @@
 
 Jekyll-Markdown is a pure markdown blog generator that uses Jekyll. You can use Jekyll-Markdown to build a simple black and white responsive blog that displays all your posts sorted in categories.
 
-## Getting Started
+# Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - https://jekyllrb.com/docs/installation/
 
-
-## Deployment
-
-## Running jekyll to make a static web server
+# Deployment
 
 Move in the Jekyll Markdown directory and run the web server:
 
-
-
 ```
-
 $ jekyll s
-
 ```
-
-
 
 Finally, check that the web server is running by typing this address in your web browser: 
 
 [localhost:4000](https://localhost:4000)
-
-
-## Configuring the website
-
-
 
 Configure the website in *_config.yml* and add your posts in the *_posts* folder based on the help post content. For more information about adding articles, see https://lukalafaye.github.io/Jekyll-MarkDown/help/
 
 ## Built With
 
 * [**Jekyll**](https://jekyllrb.com/) - Static Site Generator
-
 * [**MarkDown**](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Lightweight Markup Language
 
 ## Contributing
@@ -58,11 +43,9 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## Acknowledgments
 
-- * **Lucas Gruwez** - *Inspiration* - [**@lucasgruwez**](https://github.com/lucasgruwez)
-   
-- * **Arthur Guiot** - *Advices* - [**@arguiot**](https://github.com/arguiot)
-
-- * **Rémy Samkocwa** - *Improved README.md* - [**@remyskw**](https://github.com/remyskw)
+* **Lucas Gruwez** - *Inspiration* - [**@lucasgruwez**](https://github.com/lucasgruwez)   
+* **Arthur Guiot** - *Advices* - [**@arguiot**](https://github.com/arguiot)
+* **Rémy Samkocwa** - *Improved README.md* - [**@remyskw**](https://github.com/remyskw)
 
 ## License
 
