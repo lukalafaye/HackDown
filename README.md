@@ -1,4 +1,4 @@
-<div align="center"><img src="img/markdown.jpg" alt="Logo" height="200"><h1>Jekyll-Markdown</h1></div>
+<div align="center"><img src="img/markdown.png" alt="Logo" height="200"><h1>Jekyll-Markdown</h1></div>
 
 Jekyll-Markdown is a pure markdown blog generator that uses Jekyll. You can use Jekyll-Markdown to build a simple black and white responsive blog that displays all your posts sorted in categories.
 
