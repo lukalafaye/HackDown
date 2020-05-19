@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		{% if page.title %}
+			<title>{{page.title}} | {{site.title}}</title>
+		{% else %}
+			<title>{{site.title}}</title>
+		{% endif %}
+		<meta name="description" content="{{page.description}}">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="shortcut icon" href="{{site.url}}/favicon.ico">
+		<link rel="apple-touch-icon" href="{{site.url}}/icon.png">
+
+		<link rel="stylesheet" href="https://unpkg.com/waffle-grid@1.3.5/dist/waffle-grid.min.css">
+		<link rel="stylesheet" href="{{site.url}}/css/normalize.css">
+		<link rel="stylesheet" href="{{site.url}}/css/main.css">
+	</head>
+
+	<body>
+		<!--[if lte IE 9]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+		{{content}}
+		<br><br>
+		<script src="https://unpkg.com/lunar-icons" charset="utf-8"></script>
+		<script src="https://unpkg.com/moment@2.22.1/moment.js" charset="utf-8"></script>
+		<script src="{{site.url}}/js/main.js"></script>
+</body>
+
+</html>
+
