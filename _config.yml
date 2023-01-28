@@ -5,7 +5,7 @@ highlighter: rouge
 permalink: /:title/
 
 # Change this URL to your website's
-url: https://lukalafaye.github.io/HackDown/
+url: https://lukalafaye.github.io/HackDown
 
 encoding: UTF-8
 sass:
